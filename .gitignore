@@ -1,0 +1,5 @@
+bundle
+.bundle
+config/database.yaml
+config/twitter.yaml
+db/sql

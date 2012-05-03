@@ -1,0 +1,13 @@
+user_name: username_base64
+password: password_base64
+stream_uri: https://stream.twitter.com/1/statuses/filter.json
+search_texts:
+    -
+search_char:
+    - あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん
+    - がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽっゃゅょぁぃぅぇぉ、。
+    - アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン
+    - ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポッャュョァィゥェォ
+options:
+    count: 100
+    delimited: 10
