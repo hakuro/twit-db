@@ -119,7 +119,7 @@ if __FILE__ == $0
         attr = {
             :created_at => format_date(u["created_at"])
         }
-        user_cols.each{|c| attr[c.to_sym] = u[c]}
+        user_cols.each{|c| attr[c.to_sym] ||= u[c]}
         save(u["id"].to_i, attr, User)
     }
 end
